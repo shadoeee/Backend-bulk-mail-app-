@@ -24,7 +24,8 @@ const router = express.Router();
 router.use(express.json());
 
 // const API = "https://bulk-emailtool.netlify.app";
-const API = "http://localhost:3001";
+// const API = "http://localhost:3001";
+const API = "https://zippy-unicorn-3c6749.netlify.app"
 
 router.get('/', (req, res) => {
   res.send('Welcome to the API!'); // You can modify the response message as needed
