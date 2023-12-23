@@ -23,7 +23,6 @@ const router = express.Router();
 
 router.use(express.json());
 
-// const API = "https://bulk-emailtool.netlify.app";
 // const API = "http://localhost:3001";
 const API = "https://zippy-unicorn-3c6749.netlify.app"
 
